@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Curso JavaScript</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Mutação (Mutability) - Day 03</h1>
+
+    <p>
+      Um objeto pode herdar todas as características do outro, virando uma
+      referência ao mesmo;
+    </p>
+
+    <p>let objetoA = {pontos: 10};</p>
+
+    <p>objetoB = objetoA</p>
+
+    <p>let objetoC = {pontos: 10};</p>
+    <p>console.log(objetoA == objetoB)</p>
+    <p>console.log(objetoA == objetoC)</p>
+
+    <p>
+      Além disso a mutação cria uma ligação entre os objetos (binding), veja:
+    </p>
+
+    <p>objetoA.pontos = 20;</p>
+    <p>console.log(objetoB.pontos)</p>
+    <p>console.log(objetoC.pontos)</p>
+    <p></p>
+  </body>
+</html>

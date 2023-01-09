@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Curso JavaScript</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Objetos: deletando e criando propriedades - Day 03</h1>
+
+    <p>Podemos adicionar e deletar propriedades ao longo do nosso programa;</p>
+
+    <p>let carro = {marca: "VW", portas: 4, eletrico: false, motor: 1.0}</p>
+
+    <p>console.log(carro.portas);</p>
+    <p>delete carro.portas;</p>
+    <p>console.log(carro.portas);</p>
+    <p>carro.tetoSolar = true;</p>
+    <p>console.log(carro.tetoSolar);</p>
+
+    <h1>
+      Podemos copiar todas as propriedades de um objeto para outro com o método
+      assign;
+    </h1>
+
+    <p>let objetoA = {prop1: "teste", prop2: "testado"}</p>
+    <p>let objetoB = {prop3: "propriedade"}</p>
+    <p>Object.assign(objetoA, objetoB)</p>
+    <p>console.log(objetoA)</p>
+
+    <h1>E também podemos verificar quais as chaves cada objeto possui;</h1>
+
+    <p>let objetoA = {prop1: "teste", prop2: "testado"}</p>
+
+    <p>console.log(Object.keys(objetoA))</p>
+  </body>
+</html>

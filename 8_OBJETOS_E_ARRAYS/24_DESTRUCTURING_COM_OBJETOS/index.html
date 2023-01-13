@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Curso JavaScript</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Destructuring com objetos - Day 05</h1>
+
+    <p>
+      Podemos definir variáveis com propriedades do objeto com uma notação
+      diferente, chamada destructuring;
+    </p>
+
+    <p>
+      const person = {
+        name: 'John',
+        lastName: 'Doe',
+      }
+
+      const { name: fname, lastName: lname} = person;
+
+      console.log(fname);
+      console.log(lname);
+    </p>
+  </body>
+</html>

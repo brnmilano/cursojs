@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Curso JavaScript</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        gap: 10px;
+        padding: 50px;
+      "
+    >
+      <div>
+        <p>Você é Homem ou Mulher?</p>
+
+        <input id="genero" name="textinput" value="" type="text" />
+      </div>
+
+      <div>
+        <p>Qual o seu salário atual?</p>
+
+        <input id="salarioAtual" name="textinput" value="" type="text" />
+      </div>
+
+      <div>
+        <p>A quantos anos você trabalha na empresa?</p>
+
+        <input id="anosNaEmpresa" name="textinput" value="" type="text" />
+      </div>
+
+      <button onclick="enviar()">Calcular</button>
+    </div>
+  </body>
+</html>

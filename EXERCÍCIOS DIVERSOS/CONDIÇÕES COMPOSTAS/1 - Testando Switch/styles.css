@@ -1,0 +1,23 @@
+.container {
+  margin: 10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  width: 200px;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+button {
+  width: 200px;
+}
+
+input {
+  width: 193px;
+}
